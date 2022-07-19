@@ -1,0 +1,31 @@
+{
+  "name": "node-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "work_test": "echo \"Work!\"",
+    "prestart": "echo \"prestart - script wich start before common code\"",
+    "poststart": "echo \"poststart - script wich start before common code\"",
+    "dev": "",
+    "predev": "",
+    "postdev": "",
+    "script-1": "echo \"script-1\"",
+    "script-2": "echo \"script-2\"",
+    "common-script": "npm run script-1 && npm run script-2",
+    "expressApp": "node express_code.js",
+    "babel-Script": "node ",
+    "babelBuild": "babel srcForBabel -d libBabel"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9"
+  }
+}
